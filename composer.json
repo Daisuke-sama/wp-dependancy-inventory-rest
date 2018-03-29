@@ -1,0 +1,19 @@
+{
+    "name": "royalpr/wp-dependencies-inventory-rest",
+    "description": "The Wordpress plugin for extraction information about installed dependencies in the Wordpress website.",
+    "type": "library",
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Paul Burilichev",
+            "email": "otaku.daisuke@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WPDI\\": "src/"
+        }
+    }
+}
